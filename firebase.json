@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "flutter-ffw-resume",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "bounti-dev-34f18"
+  },
+  "targets": {
+    "bounti-dev-34f18": {
+      "hosting": {
+        "flutter-ffw-resume": [
+          "flutter-ffw-resume"
+        ]
+      }
+    }
+  }
+}
