@@ -1,16 +1,18 @@
-# resume_ffw_dec_2020
+# flutter_jobs_ffw
 
-A new Flutter project.
+My online resume written in Flutter and configured to run on the Web. Flutter Web is currently experimental and, as such, a couple of things do not properly render, many plugins are not supported, etc. However, I like it a lot.
 
-## Getting Started
+## Code Dependencies
 
-This project is a starting point for a Flutter application.
+If you wish to run this code on your local machine, Flutter needs to be installed.
 
-A few resources to get you started if this is your first Flutter project:
+See instructions [here](https://flutter.dev/docs/get-started/install) for your operating system.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Starting the app on your local machine
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository or download the zip file.
+2. Connect your Android or Apple device to your local machine and make sure it is in developer mode (Android) or it is trusted (Apple). Alternatively, you can open a virtual device in Android Studio and/or Xcode.
+3. In a command line, go to the project directory on your computer (wherever your cloned it to, or extracted the zip file) and type:
+`flutter pub get`
+4. To run in Chrome browser, in the same command line and in the same directory, type:
+`flutter run -d chrome`
